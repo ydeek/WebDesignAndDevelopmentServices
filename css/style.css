@@ -82,7 +82,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: center;
+    flex-flow: column;
+    text-align: center;
     padding: 0 1rem;
     position: relative;
     overflow: hidden !important;
@@ -95,7 +96,68 @@ body {
   text-shadow:0 .3rem .5rem rbga(0,0,0,.3);  
 }
 
+.home .slogan{
+    color:#eee;
+    font-size: 2.5rem;
+    text-shadow:0 .3rem .5rem rbga(0,0,0,.3); 
+    font-weight: 400;
+  }
 
+  .home button{
+      height: 4rem;
+      width: 18rem;
+      background: #fff;
+      color:#444;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      margin-top:1rem;
+      font-size: 2rem;
+      font-weight: 400;
+      box-shadow: 0 .3rem .5rem rbga(0,0,0.3);
+    }
+  
+    .home button:hover{
+        letter-spacing: .1rem;
+    }
+
+    .home .wave{
+        position:absolute;
+        bottom: -.5rem;
+        lef:0;
+        height: 11rem;
+        width: 100%;
+        background: url(../img/wave.png);
+        background-repeat: repeat-x;
+        animation: waves 10s linear infinite;
+    }
+
+
+    .home .wave2{
+       animation-direction: reverse;
+       opacity: .2; 
+    }
+
+    .home .wave3{
+       animation-duration: reverse;
+       opacity: .5; 
+    }
+
+    @keyframes waves{
+        0%{
+          background-position-x: 0;  
+        }
+        100%{
+            background-position-x: 100rem;
+        }
+    }
+
+    .home .fa-cog{
+        position: absolute;
+        font-size: 30rem;
+        opacity: .15;
+        color: #fff;
+    }
 
 
 
@@ -165,4 +227,14 @@ body {
 .header .nav-toggle{
   top:5.8rem; 
 }
+
+.home .banner{
+    font-size: 4rem;
+}
+.home .slogan{
+    font-size: 1.7rem;
+}
+
+
+
 }
