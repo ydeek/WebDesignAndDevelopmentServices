@@ -79,7 +79,43 @@ body {
     min-height: 110vh;
     width:100vw;
     background: linear-gradient(purple, var(--color));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: center;
+    padding: 0 1rem;
+    position: relative;
+    overflow: hidden !important;
 }
+
+
+.home .banner{
+  color:#fff;
+  font-size: 5rem;
+  text-shadow:0 .3rem .5rem rbga(0,0,0,.3);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
