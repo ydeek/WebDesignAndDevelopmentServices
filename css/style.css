@@ -288,12 +288,12 @@ body {
     top:-10rem; right:-10rem;
 }
 
-.service {
+.services {
     width: 100vw;
     text-align: center;
 }
 
-.service .row{
+.services .row{
     margin: 2rem 0;
     padding: 0 2rem; 
     display: flex;
@@ -301,22 +301,22 @@ body {
     justify-content: center;
 }
 
-.service .row .image img{
+.services .row .image img{
     width: 50vw;
     height: 55vh;
 }
 
-.service .row .content {
+.services .row .content {
     text-align: left;
     padding: 0 3rem;
 }
 
-.service .row .content h3{
+.services .row .content h3{
     font-size: 3rem;
     color:var(--color);
 }
 
-.service .row .content p {
+.services .row .content p {
     font-size: 1.5rem;
     color:#333;
     padding: 1rem 0;
@@ -394,18 +394,18 @@ body {
    width: 100vw;
 }
 
-.service .row{
+.services .row{
     flex-flow:column-reverse ;
 }
 
-.service .row:nth-child(even){
+.services .row:nth-child(even){
     flex-flow:column;
 }
-.service .row .image img{
+.services .row .image img{
    width: 100vw;
 }
 
-.service .row .content{
+.services .row .content{
    padding:0; 
 }
 }
