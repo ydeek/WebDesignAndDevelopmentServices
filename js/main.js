@@ -18,6 +18,15 @@ $(window).on('load scroll', function(){
 
 });
 
+$('.accordion-header').click(function(){
+$('.accordion .accordion-body').slideUp();
+$(this).next('.accordion-body').slideDown();
+$('.accodion .accordion-header span').text('+');
+$(this).children('span').text('-');
+
+
+});
+
 });
 
 
